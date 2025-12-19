@@ -171,7 +171,7 @@ PV-GH-Senior-SW-Dev
 
 ### Optional Bonus (Not Required)
 
-If you’d like to stand out, you may optionally include **one** of the following:
+If you’d like to stand out, you may optionally include one or more of the following:
 
 - A short paragraph describing a technical decision you *disagreed* with — and how you handled it
 - A link to something you’ve written or built (public or private is fine)
