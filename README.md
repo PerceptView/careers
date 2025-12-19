@@ -175,9 +175,138 @@ This section is entirely optional.
 
 ---
 
+---
+
+# What AwareView Is
+
+AwareView is a multi-sensor situational awareness platform designed to detect, track, and monitor aircraft, drones (UAS/UAVs), and other airborne objects in real time. It integrates data from multiple hardware sources into a unified map-based interface that operators can monitor and act upon. Its strengths and versatility lies in:
+
+A. It is specifically designed as a sensor-agnostic, vendor-neutral, platform. Its integrations evolve with the sensing industry 
+
+B. Function over form: It follows a "Make it work first - make it pretty later" ethos. This is both for ensureing it works properly over any 'cool factor' and to keep the visual clutter / operator overhead as low as possible. Which isn't to say there is no room for serious graphical exploration and experimentation. 
+
+C. This is not our first rodeo with Counter UAS control software - a lot has been learned...plenty of live saving fun work still up for grabs
+
+AwareView is specifically designed to function on private secured networks with no outside network connection which is often a requirement from our clients for security purposes. It certainly can connecto to systems over public networks but it is not required and the least prefered use case. 
+
+---
+
+## What Users Actually Do with AwareView
+
+### 1. Real-Time Monitoring & Visualization
+
+Users access a browser-nased map interface that displays:
+
+- Live tracks of detected aircraft / airborne objects and drones with their positions, altitudes, and headings
+- Detection classifications showing whether targets are likely UAS/drones, aircraft, or other objects
+- Confidence probabilities for each classification
+- A list of active tracks that can be selected for detailed information and actions
+
+---
+
+### 2. Hardware Integration & Configuration
+
+Users configure and manage multiple sensor sources (“components”) that feed detection data into the system.
+
+#### Ingress Sources (Input Devices)
+
+- **Radar systems:** 
+- **ADS-B receivers:** 
+- **Drone detection systems:**  
+- **Video tracking:**  
+- **Network integration:**  
+  Cursor on Target (CoT) for military/emergency coordination  
+  WebSocket connections for inter-system communication
+
+#### Egress Outputs (Data Export)
+
+- Send filtered or transformed detection data to other systems via:
+  - Cursor on Target (CoT) XML format over UDP/TCP
+  - File system storage 
+  - Other AwareView instances for distributed deployments
+
+---
+
+### 3. Geospatial Zone Management
+
+Users define and enable detection zones to monitor, such as:
+
+- **Circular zones:** Radius and altitude boundaries
+- **Polygon zones:** Geographic boundaries with minimum and maximum altitude
+- Zones can be **static** or **dynamic** (tied to a mobile platform or fixture)
+
+---
+
+### 4. Mission Planning & Tracking Tasks
+
+Users create and manage tasks associated with components, such as:
+
+- **Slew-to-cue tasks:** Automatically orient cameras or radars to detected targets
+- **Zone monitoring tasks:** Trigger actions when targets enter or exit zones
+- Tasks can be scheduled with configurable start and end times and enabled or disabled as needed
+
+---
+
+### 5. Hardware Management
+
+Users configure the physical sensors and devices, for instance:
+
+- Add ingress fixtures (radar systems, ADS-B receivers, drone detectors)
+- Add egress fixtures (output channels to other systems)
+- Define static location points (latitude, longitude, altitude) where sensors are positioned
+
+---
+
+### 6. System Administration
+
+General system admininstration may include: 
+
+- User authentication and access control
+- Dark mode support for operator comfort during long shifts
+- API access for automated integration
+- Administrative panel for system configuration
+
+---
+
+## Key Problems AwareView Solves
+
+- **Multi-source data visualization:** Combines radar, ADS-B, and RF-based detection into a single operational view
+- **Real-time threat detection:** Identifies and tracks unauthorized aircraft and drones
+- **Geospatial alerting:** Monitors defined zones and triggers responses when targets enter restricted airspace
+- **System interoperability:** Works with military (CoT), civilian (ADS-B), and commercial detection systems
+- **Automation:** Automatically orients cameras and sensors via slew-to-cue functionality
+- **Distributed deployment / Federation:** Supports connecting multiple AwareView instances for wide-area coverage
+
+---
+
+## Target Use Cases
+
+- Airport and airfield security
+- Military airspace monitoring
+- Critical infrastructure protection (power plants, government facilities)
+- Emergency response and airspace coordination
+- Border security and counter-UAS operations
+- Wildfire monitoring via aircraft tracking
+
+---
+
+## System Architecture
+
+AwareView is built as a microservices-like system using:
+
+- PostgreSQL with PostGIS for geospatial data
+- A web-based operator interface
+- Go-based data processing services
+- Python hardware drivers (currently being ported to Go)
+
+The system is deployed on Rocky Linux / RHEL 9. It is not a web-based service. 
+
+---
+
 ## Notes
 
 This repository exists solely for hiring and career communication.  
 It contains no source code or internal materials.
+
 
 © PerceptView — All rights reserved.
