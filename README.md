@@ -152,8 +152,15 @@ This role is **not** a good fit if you:
 
 ## MISC
 
-- All hiring is subject to background checks
-- Must possess a valid state driver’s license
+- This role includes on-site work and may occasionally require the ability to lift, carry, and transport equipment weighing up to 50 pounds, for single person carry, or more (e.g., Pelican cases containing hardware and networking equipment). Reasonable accommodations may be provided in accordance with applicable law.
+
+- This role may support federal contracts that require U.S. citizenship. Candidates must be eligible to work on such contracts when assigned. All applicants must be legally authorized to work in the United States; visa sponsorship is not available for this position.
+
+- Employment with the company is contingent upon successful completion of a background check and, where applicable, a pre-employment drug screening.
+
+- Candidates must possess a valid, state-issued form of identification and be able to verify employment eligibility in the United States.
+
+- We are an equal opportunity employer and do not discriminate based on race, color, religion, sex, national origin, age, disability, veteran status, or any other protected characteristic under applicable law.
 
 ---
 
