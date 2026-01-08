@@ -18,7 +18,9 @@ Our systems live at the intersection of hardware, software, networking, and real
 - **Systems must recover from failures**
 - **Private network operation is the norm** — not cloud-based services
 
-| posted: Dec 19, 2025 | expiry: NA | 
+**IMPORTANT NOTE**: This role may support federal contracts that require U.S. citizenship. Candidates must be eligible to work on such contracts when assigned. All applicants must be legally authorized to work in the United States; visa sponsorship is not available for this position.
+
+| _posted: Dec 19, 2025_ | _expiry: NA_ | 
 
 ---
 
