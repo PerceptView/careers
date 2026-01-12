@@ -196,13 +196,13 @@ This section is entirely optional.
 
 AwareView is a multi-sensor situational awareness platform designed to detect, track, and monitor aircraft, drones (UAS/UAVs), and other airborne objects in real time. It integrates data from multiple hardware sources into a unified map-based interface that operators can monitor and act upon. Its strengths and versatility lies in:
 
-A. It is specifically designed as a sensor-agnostic, vendor-neutral, platform. Its integrations evolve with the sensing industry 
+- It is specifically designed as a sensor-agnostic, vendor-neutral, platform. Its integrations evolve with the sensing industry 
 
-B. Function over form: It follows a "Make it work first - make it pretty later" ethos. This is both for ensureing it works properly over any 'cool factor' and to keep the visual clutter / operator overhead as low as possible. Which isn't to say there is no room for serious graphical exploration and experimentation. 
+- Function over form: It follows a "Make it work first - make it pretty later" ethos. This is both for ensureing it works properly over any 'cool factor' and to keep the visual clutter / operator overhead as low as possible. Which isn't to say there is no room for serious graphical exploration and experimentation. 
 
-C. This is not our first rodeo with Counter UAS control software - a lot has been learned...plenty of live saving fun work still up for grabs
+- This is not our first rodeo with Counter UAS control software - a lot has been learned...plenty of live saving fun work still up for grabs
 
-AwareView is specifically designed to function on private secured networks with no outside network connection which is often a requirement from our clients for security purposes. It certainly can connecto to systems over public networks but it is not required and the least prefered use case. 
+AwareView is specifically designed to function on private secured networks with no outside network connection which is often a requirement from our clients for security purposes. It certainly can connec to systems over public networks but it is not required and the least prefered use case. 
 
 ---
 
@@ -210,7 +210,7 @@ AwareView is specifically designed to function on private secured networks with 
 
 ### 1. Real-Time Monitoring & Visualization
 
-Users access a browser-nased map interface that displays:
+Users access a browser-based map interface that displays:
 
 - Live tracks of detected aircraft / airborne objects and drones with their positions, altitudes, and headings
 - Detection classifications showing whether targets are likely UAS/drones, aircraft, or other objects
