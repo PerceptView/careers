@@ -6,7 +6,7 @@ www.perceptview.com
 
 ---
 
-# Senior Software Developer  -- **POSITION FILLED** - we will post an update when new positions opens later this year. 
+# Senior Software Developer  -- **POSITION FILLED** - we will post an update when new positions open later this year. 
 ### AwareView Command and Control Software System
 
 PerceptView builds real-world, production systems for situational awareness, sensing, and data processing.
